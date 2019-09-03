@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{7059bd49-4689-4715-ba67-8123a35e0f3f}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{26f44ffb-57d7-4646-b3c4-2bd0a89c908e}</UniqueIdentifier>
+      <Extensions>cu;c;cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cu">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cu">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gpugameoflife.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="gpugameoflife.cu">
+      <Filter>Sources</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
